@@ -1,4 +1,4 @@
 Flask
 ultralytics
 Pillow
-uvicorn
+gunicorn
