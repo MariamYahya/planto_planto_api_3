@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['black_stem_rust', 'healthy_wheat', 'loose_charred', 'orang_rust', 'powder_mildew', 'yellow_rust']
+
+roboflow:
+  workspace: classification-kpyuv
+  project: wheat-disease-xdi1k
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/classification-kpyuv/wheat-disease-xdi1k/dataset/4
